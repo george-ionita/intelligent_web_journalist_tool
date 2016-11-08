@@ -1,0 +1,30 @@
+{
+  "name": "intelliwebdeploy",
+  "version": "1.0.0",
+  "description": "Intelligent Web Assignment Web App",
+  "main": "server.js",
+  "dependencies": {
+    "line-reader": "^0.4.0",
+    "mysql": "^2.11.1",
+    "node-geocoder": "^3.15.0",
+    "node-static": "^0.7.8",
+    "request": "^2.75.0",
+    "sparql-client": "^0.2.0",
+    "twit": "^2.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://landriejauskas@bitbucket.org/landriejauskas/intelliwebdeploy.git"
+  },
+  "author": "Laimonas Andriejauskas and George-Andrei Ionita",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/landriejauskas/intelliwebdeploy#readme",
+  "engines": {
+    "node": "0.12.0"
+  }
+}

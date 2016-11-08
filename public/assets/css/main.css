@@ -1,0 +1,121 @@
+/*
+ * main.css
+ *
+ * Authors: Laimonas Andriejauskas and George-Andrei Ionita
+ *
+ * Description: This css file is used in conjunction with bootstrap to style the
+ * system.
+ *
+ */
+
+/*
+ * -----------------------------------------------------------------------------
+ *
+ * Styles shared by whole application.
+ *
+ * -----------------------------------------------------------------------------
+ *
+ */
+body {
+	margin-top: 30px;
+	background-color: #F2F2F2;
+}
+
+/*
+ * -----------------------------------------------------------------------------
+ *
+ * queryInterface.html only styles.
+ *
+ * -----------------------------------------------------------------------------
+ *
+ */
+#map-canvas {
+	height: 100%
+}
+
+/*
+ * -----------------------------------------------------------------------------
+ *
+ * journalistTool.html only styles.
+ *
+ * -----------------------------------------------------------------------------
+ *
+ */
+.vcenter {
+	display: table-cell;
+	vertical-align: middle;
+	float: none;
+}
+
+.team-description-box {
+	height: 200px;
+	display: table;
+}
+
+.panel-manager {
+	height: 600px;
+	display: table;
+	width: 100%;
+}
+
+.panel-manager-row {
+	display: table-row;	
+	height: 100%;
+}
+
+.panel-manager img {
+	max-height: 525px;
+}
+
+.panel-player {
+	height: 475px;
+	display: table;
+	width: 100%;
+}
+
+.panel-player-row {
+	display: table-row;	
+	height: 100%;
+}
+
+.panel-player-row:first-child {
+	height: 50px;
+}
+
+.panel-player-row:last-child {
+	height: 100px;
+}
+
+.panel-player img {
+	max-height: 275px;
+}
+
+a.no-link-styling,
+a.no-link-styling:hover,
+a.no-link-styling:visited,
+a.no-link-styling:link {
+	color: inherit;
+	text-decoration: none;
+}
+
+.wi {
+	font-size: 70px;
+	line-height: 1.5;
+}
+
+i.sunshine {
+	color: #ECEC13;
+}
+
+i.rain {
+	color: #888888;
+}
+
+#player-info-row {
+	margin-top: 50px;
+}
+/*
+ * -----------------------------------------------------------------------------
+ * -----------------------------------------------------------------------------
+ *
+ */
